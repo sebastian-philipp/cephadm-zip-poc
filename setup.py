@@ -5,7 +5,7 @@ __version__ = '1.0.0'
 setuptools.setup(
      name='cephadm',  
      version=__version__,
-     scripts=['cephadm'] ,
+     py_modules=['cephadm'] ,
      description="cephadm",
      long_description=(
 	"The cephadm orchestrator is an orchestrator "
